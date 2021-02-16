@@ -1,0 +1,9 @@
+ARMSTRONG NUMBER
+NUM=153
+ARM=0
+while (NUM>0):
+  REM=NUM%10
+  ARM=ARM+(REM*REM*REM)
+  NUM=NUM//10
+print(ARM)
+output=153
